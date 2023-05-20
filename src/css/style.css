@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.carrefour-logo {
+  width: 160px;
+  height: 33px;
+}
+
+.login-form-container {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  padding: 20px 10px 20px 10px;
+  max-width: 624px;
+}
+
+.login-form-content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.login-title {
+  color: #02296d;
+  margin-bottom: 10px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+label.label {
+  margin-bottom: 10px;
+  color: #3f3f40;
+  font-size: 14px;
+}
+
+.input {
+  width: 100%;
+  font-size: 14px;
+  color: #3f3f40;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #e3e4e6;
+  min-height: 40px;
+  border-radius: 4px;
+  outline: 0px;
+}
+
+.input:focus,
+.input:hover {
+  border-color: #2e8cf6;
+}
+
+.input:focus {
+  box-shadow: 0 0 10px rgba(30, 91, 198, 0.3);
+}
+
+.button {
+  border: 1px solid #1e5bc6;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  font-size: 15px;
+  outline: 0;
+  color: #fff;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: #1e5bc6;
+  cursor: pointer;
+}
+
+.text-error {
+  text-align: center;
+  margin-top: 12px;
+  color: #ff403f;
+}
